@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Manager</string>
+    <string name="RefTim">Clear timings</string>
+    <string name="FeedbackText">Check feedback</string>
+    <string name="DineFB">Feedback for Dine</string>
+    <string name="HomeDeliveryFB">Feedback for Home Delivery</string>
+    <string name="RefRatings">Refresh ratings</string>
+</resources>

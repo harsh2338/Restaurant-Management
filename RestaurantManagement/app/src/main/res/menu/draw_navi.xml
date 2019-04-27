@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/nav_Parking"
+        android:title="@string/ParkingText"/>
+    <item android:id="@+id/nav_TableSelect"
+        android:title="@string/Table"/>
+    <item android:id="@+id/nav_Feedback"
+        android:title="@string/FeedbackText"/>
+    <item android:id="@+id/nav_Refresh"
+        android:title="@string/Refresh"/>
+    <item android:id="@+id/nav_Dine_Feedback"
+        android:title="@string/DineFB"/>
+    <item android:id="@+id/nav_HD_Feedback"
+        android:title="@string/HomeDeliveryFB"/>
+    </group>
+</menu>

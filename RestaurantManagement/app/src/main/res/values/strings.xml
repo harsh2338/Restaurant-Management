@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">LAH</string>
+    <string name="userRegister">New User? Sign UP</string>
+    <string name="userLogin">Already Registered?Click here to Login</string>
+    <string name="hint">Click</string>
+    <string name="nUserName">Name:</string>
+    <string name="hintusrname">Enter Your Name</string>
+    <string name="nPassword">Password:</string>
+    <string name="hintpassword">Enter Your Password</string>
+    <string name="newemail">Email:</string>
+    <string name="hintemail">Enter Your Email</string>
+    <string name="nRegister">Register</string>
+    <string name="RegisterTitle">Register for Free!</string>
+    <string name="loginTitle">LOGIN</string>
+    <string name="loginButton">Login</string>
+    <string name="slogan">We speak food!</string>
+
+
+    <string name="FeedbackText">FEEDBACK</string>
+    <string name="ServiceText">SERVICE</string>
+    <string name="frndText">Cordiality</string>
+    <string name="ParkingText">Parking</string>
+    <string name="FoodText">FOOD</string>
+    <string name="QualityText">Quality</string>
+    <string name="PresentationText">Appeal</string>
+    <string name="TasteText">Taste</string>
+    <string name="SettingText">SETTING</string>
+    <string name="AmbienceText">Ambience</string>
+    <string name="CleanText">Hygiene</string>
+    <string name="ComfortText">Comfort</string>
+    <string name="HintFeedback">Any Other Suggestions</string>
+    <string name="Submit">Submit</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string-array name="MainMenu">
+        <item>Entrees</item>
+        <item>Main Course</item>
+        <item>Desserts</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="DineText">Dine</string>
+    <string name="HomeDeliveryText">HomeDelivery</string>
+    <string name="title_activity_feedbackfinal">Feedbackfinal</string>
+    <string name="ResetPassword">Forgot Password?</string>
+    <string name="rpIns">RESET PASSWORD</string>
+    <string name="checkBoxText">Do you want to confirm</string>
+    <string name="SpeedText">Speed</string>
+    <string name="PackageText">Packing</string>
+
+    <string name="DineFB">Feedback Dine</string>
+    <string name="HomeDeliveryFB">Feedback Home delivery</string>
+
+    <string name="_2Seater">2 seater</string>
+    <string name="_4Seater">4 seater</string>
+    <string name="_8Seater">8 seater</string>
+    <string name="Table_name1">T1</string>
+    <string name="Booked_Time">Booked Timings</string>
+    <string name="closeButton">CLOSE</string>
+    <string name="title_activity_options">Options</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string-array name="Two_Table_names_strings">
+        <item>T1</item>
+        <item>T2</item>
+        <item>T3</item>
+        <item>T4</item>
+        <item>T5</item>
+        <item>T6</item>
+
+    </string-array>
+    <string-array name="Four_Table_names_strings">
+        <item>F1</item>
+        <item>F2</item>
+        <item>F3</item>
+        <item>F4</item>
+    </string-array>
+    <string-array name="Eight_Table_names_strings">
+        <item>E1</item>
+        <item>E2</item>
+    </string-array>
+
+    <string name="SetTime">WHEN CAN WE EXPECT YOU?</string>
+    <string name="StartingTimeText">StartingTime</string>
+    <string name="EndingTimeText">Ending Time</string>
+    <string name="Availabilty">Check Availability</string>
+    <string name="Show_Prev_Timings">Show Booked Slots</string>
+    <string name="TwoWheeler">2 WHEELER</string>
+    <string name="FourWheeler">4 WHEELER</string>
+    <string name="RefTim">Timings</string>
+    <string name="Confirm">Confirm</string>
+
+    <string name="Table">Table</string>
+    <string name="Refresh">Refresh</string>
+
+    <string-array name="Items">
+        <item>Parking</item>
+        <item>Table</item>
+        <item>Feedback</item>
+        <item>Refresh</item>
+        <item>Diner Feeedback</item>
+        <item>HD Feedback</item>
+
+    </string-array>
+    <string name="title_activity_navi_draw">NaviDraw</string>
+
+    <string name="BillHead">BILL</string>
+    <string name="OrderList">Your Orders</string>
+    <string name="TotalPrice">TOTAL</string>
+
+    <string name="Dine">Dine</string>
+    <string name="Delivery">Delivery</string>
+    <string name="ConfirmTable">Comfirm</string>
+    <string name="Order">Orders</string>
+    <string name="title_activity_list_order">ListOrder</string>
+
+</resources>

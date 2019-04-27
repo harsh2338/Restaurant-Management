@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:layout_centerInParent="true"
+    tools:context="com.example.resmanage.splashscreen">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/applogo"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/applogo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/applogo"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:id="@+id/restaurantName"
+        android:text="LAH RESTAURANT"
+        android:textColor="@color/text"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/restaurantName"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/yesteryear"
+        android:text="@string/slogan"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

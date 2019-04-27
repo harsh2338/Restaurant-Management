@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "712028679353",
+    "firebase_url": "https://restaurant-management-2edfa.firebaseio.com",
+    "project_id": "restaurant-management-2edfa",
+    "storage_bucket": "restaurant-management-2edfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712028679353:android:9173617f5cb858be",
+        "android_client_info": {
+          "package_name": "com.example.manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712028679353-832d6c2rhn8i21eqq9e479729lcsjnoi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manager",
+            "certificate_hash": "4b91d0e794c022314367da462844e895fbfe8e3b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBasERy6-p1coQYfDwbpKE_4trHERWA-qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712028679353-jjt9jrnn9tna0lsb4b82dsfqm6qcn8qm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712028679353:android:c0250671bf9f6fa8",
+        "android_client_info": {
+          "package_name": "com.example.user_registeration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712028679353-4ppsf1fn4a8rguqihr1f178duaq3cuov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user_registeration",
+            "certificate_hash": "15d5196d5b8dca032b72b2c80fa97f0c8d83ce6e"
+          }
+        },
+        {
+          "client_id": "712028679353-lcb4d8lqr8uujqv3lnpo9plouc09e4e0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user_registeration",
+            "certificate_hash": "4b91d0e794c022314367da462844e895fbfe8e3b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBasERy6-p1coQYfDwbpKE_4trHERWA-qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712028679353-jjt9jrnn9tna0lsb4b82dsfqm6qcn8qm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

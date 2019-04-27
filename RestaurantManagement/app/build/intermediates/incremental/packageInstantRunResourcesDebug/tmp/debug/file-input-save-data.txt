@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Apr 09 21:49:09 IST 2019
+0.baseType=DIRECTORY
+0.base=/Users/akshithbellare/Desktop/RestaurantManagement/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+0.path=databases/RMA.db
+0.set=ASSET
+count=1

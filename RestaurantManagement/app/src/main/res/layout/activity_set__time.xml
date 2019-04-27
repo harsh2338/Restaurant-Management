@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Set_Time"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/textViewStartingTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/SetTime"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+
+    <TextView
+        android:id="@+id/displayST"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="31dp"
+         />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/STbutton"
+        android:backgroundTint="@color/text"
+        android:textColor="#ffffff"
+        android:layout_toLeftOf="@+id/displayST"
+        android:layout_width="170dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="23dp"
+        android:layout_toStartOf="@+id/displayST"
+        android:text="@string/StartingTimeText" />
+
+    <TextView
+        android:id="@+id/displayET"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="8dp"
+        />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/ETbutton"
+        android:textColor="#ffffff"
+        android:backgroundTint="@color/text"
+        android:layout_width="170dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="24dp"
+        android:layout_toStartOf="@+id/displayST"
+        android:text="@string/EndingTimeText" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/Availability_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ETbutton"
+        android:layout_marginTop="41dp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Availabilty"
+        android:backgroundTint="@color/fbutton_color_emerald"
+        />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/Show_Prev_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Availability_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@color/fbutton_color_alizarin"
+        android:text="@string/Show_Prev_Timings"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/ConfirmTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Show_Prev_Time"
+        android:layout_marginTop="125dp"
+        android:text="CONFIRM!"
+        android:textColor="#ffffff"
+        android:backgroundTint="@color/fbutton_color_pomegranate"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

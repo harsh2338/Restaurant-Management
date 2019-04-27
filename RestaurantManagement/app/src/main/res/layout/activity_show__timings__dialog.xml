@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Base.DialogWindowTitle.AppCompat"
+    tools:context=".Show_Timings_Dialog"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/BookedTimingsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/Booked_Time"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/BookedTimings"
+        style="@style/Widget.AppCompat.Light.ListView.DropDown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/closeButton"
+        android:layout_below="@+id/BookedTimingsText"
+        android:background="@color/fbutton_color_transparent" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/closeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/fbutton_color_pomegranate"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/closeButton"
+        android:textSize="24sp"
+        android:textColor="#ffffff"></info.hoang8f.widget.FButton>
+</RelativeLayout>

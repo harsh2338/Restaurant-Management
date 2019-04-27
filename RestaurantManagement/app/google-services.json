@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "712028679353",
+    "firebase_url": "https://restaurant-management-2edfa.firebaseio.com",
+    "project_id": "restaurant-management-2edfa",
+    "storage_bucket": "restaurant-management-2edfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712028679353:android:c0250671bf9f6fa8",
+        "android_client_info": {
+          "package_name": "com.example.user_registeration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712028679353-4ppsf1fn4a8rguqihr1f178duaq3cuov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user_registeration",
+            "certificate_hash": "15d5196d5b8dca032b72b2c80fa97f0c8d83ce6e"
+          }
+        },
+        {
+          "client_id": "712028679353-jjt9jrnn9tna0lsb4b82dsfqm6qcn8qm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBasERy6-p1coQYfDwbpKE_4trHERWA-qs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712028679353-jjt9jrnn9tna0lsb4b82dsfqm6qcn8qm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

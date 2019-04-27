@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/loginText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="@string/loginTitle"
+            android:textColor="@color/text"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="29dp" />
+
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_below="@+id/loginText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/applogo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id='@+id/LinearLayout3'
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_below="@id/relativeLayout4"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/loginButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout4">
+
+        <EditText
+            android:id="@+id/loginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:autofillHints=""
+            android:ems="10"
+            android:textColorHint="#ffffff"
+            android:hint="@string/hintemail"
+            android:inputType="textEmailAddress"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:ems="10"
+            android:hint="@string/hintpassword"
+            android:textColorHint="#ffffff"
+            android:inputType="textPassword"
+            tools:targetApi="o" />
+    </LinearLayout>
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayout3"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/fbutton_color_pomegranate"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/loginTitle"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:shadowColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resetPassword"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/userRegister"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/resetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/ResetPassword"
+        android:textColor="@color/text" />
+</RelativeLayout>
