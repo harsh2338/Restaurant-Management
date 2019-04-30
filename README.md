@@ -4,3 +4,8 @@ One of the major problems faced by customers in Restaurants is the time spent wa
 their orders. Time is a valuable thing and it's the restaurant's responsibility to ensure that the
 customer spends more time eating than waiting.
 So this is an app which is used by customers to book a table and add the time they will arrive at the restaurant so that the food they have ordered will be ready as soon as they sit for dining. 
+
+TEAM MEMBERS
+Laharish K.
+Akshith N.M.
+Harshvardhan R.
