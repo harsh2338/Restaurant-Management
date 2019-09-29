@@ -2,7 +2,7 @@ package com.example.manager;
 
 public class Data_To_Database_Timings
 {
-    String T1,T2,T3,T4,T5,T6,F1,F2,F3,F4,E1,E2,P1,P2,P3;
+    public String T1,T2,T3,T4,T5,T6,F1,F2,F3,F4,E1,E2,P1,P2,P3;
 
     public Data_To_Database_Timings(String t1, String t2, String t3, String t4, String t5, String t6) {
         T1 = t1;
